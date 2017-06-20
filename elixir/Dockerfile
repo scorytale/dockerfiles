@@ -1,5 +1,7 @@
 FROM alpine:3.6
 
+MAINTAINER ScoryTale <developers@sportintown.com>
+
 ENV APP_HOME /app
 
 RUN apk add --no-cache --update \

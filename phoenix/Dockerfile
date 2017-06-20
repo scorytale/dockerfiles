@@ -1,5 +1,7 @@
 FROM scorytale/elixir
 
+MAINTAINER ScoryTale <developers@sportintown.com>
+
 RUN apk add --no-cache --update \
       nodejs nodejs-npm \
       imagemagick
