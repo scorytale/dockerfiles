@@ -11,5 +11,5 @@ RUN mix archive.install https://github.com/phoenixframework/archives/raw/master/
 
 EXPOSE 4000
 
-CMD ["mix", "phoenix.server"]
+CMD ["mix", "phx.server"]
 
