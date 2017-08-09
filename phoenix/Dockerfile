@@ -8,6 +8,7 @@ RUN apk add --no-cache --update \
       erlang-xmerl
 
 RUN mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez --force
+RUN npm install npm@latest -g
 
 EXPOSE 4000
 
