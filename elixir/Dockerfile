@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.7
 
 MAINTAINER ScoryTale <developers@sportintown.com>
 
@@ -16,4 +16,3 @@ RUN mix local.rebar --force
 WORKDIR $APP_HOME
 
 CMD ["iex", "-S", "mix"]
-
